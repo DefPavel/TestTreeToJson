@@ -1,0 +1,134 @@
+{
+    "Tree": [
+        {
+            "id": 1,
+            "nameDepartment": "Институт истории, международных отношений и социально-политических наук",
+            "parentId": 0,
+            "child": [
+                {
+                    "id": 2,
+                    "nameDepartment": "Кафедра истории Отечества",
+                    "parentId": 1
+                },
+                {
+                    "id": 3,
+                    "nameDepartment": "Кафедра философии",
+                    "parentId": 1
+                },
+                {
+                    "id": 4,
+                    "nameDepartment": "Кафедра всемирной истории и международных отношений",
+                    "parentId": 1
+                },
+                {
+                    "id": 5,
+                    "nameDepartment": "Кафедра политических наук и регионалистики",
+                    "parentId": 1
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "nameDepartment": "АХЧ",
+            "parentId": 0,
+             "child": [
+                {
+                    "id": 7,
+                    "nameDepartment": "Работники АХЧ",
+                    "parentId": 6,
+                     "child": [
+                        {
+                            "id": 8,
+                            "nameDepartment": "Учебный Корпус №1",
+                            "parentId": 7
+                        },
+                        {
+                            "id": 9,
+                            "nameDepartment": "Учебный Корпус №2",
+                            "parentId": 7
+                        },
+                        {
+                            "id": 10,
+                            "nameDepartment": "Учебный Корпус №3",
+                            "parentId": 7
+                        },
+                        {
+                            "id": 11,
+                            "nameDepartment": "Учебный Корпус №4",
+                            "parentId": 7
+                        },
+                        {
+                            "id": 12,
+                            "nameDepartment": "Учебный Корпус №5",
+                            "parentId": 7
+                        },
+                        {
+                            "id": 13,
+                            "nameDepartment": "Учебный Корпус №6",
+                            "parentId": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "nameDepartment": "Институт Педагогики",
+            "parentId": 0,
+            "child": [
+                {
+                    "id": 15,
+                    "nameDepartment": "Кафедра дефектологии",
+                    "parentId": 14
+                },
+                {
+                    "id": 16,
+                    "nameDepartment": "Кафедра дошкольного образования",
+                    "parentId": 14
+                },
+                {
+                    "id": 17,
+                    "nameDepartment": "Кафедра начального образования",
+                    "parentId": 14
+                },
+                {
+                    "id": 18,
+                    "nameDepartment": "Кафедра педагогики",
+                    "parentId": 14
+                },
+                {
+                    "id": 19,
+                    "nameDepartment": "Кафедра психологии",
+                    "parentId": 14
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "nameDepartment": "Институт проф.развития",
+            "parentId": 0,
+            "child": [
+                {
+                    "id": 21,
+                    "nameDepartment": "Отдел электронного обучения ",
+                    "parentId": 20
+                },
+                {
+                    "id": 22,
+                    "nameDepartment": "Центр доп.образования",
+                    "parentId": 20
+                },
+                {
+                    "id": 23,
+                    "nameDepartment": "Центр подготовки и лицензирования",
+                    "parentId": 20
+                },
+                {
+                    "id": 24,
+                    "nameDepartment": "Центр последипломного обрз.",
+                    "parentId": 20
+                }
+            ]
+        }
+    ]
+}

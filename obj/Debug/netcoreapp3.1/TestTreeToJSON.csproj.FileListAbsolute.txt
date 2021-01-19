@@ -20,3 +20,23 @@ D:\Project to C#\TestTreeToJSON\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHel
 D:\Project to C#\TestTreeToJSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Project to C#\TestTreeToJSON\obj\Debug\netcoreapp3.1\TestTreeToJSON.csproj.CopyComplete
 D:\Project to C#\TestTreeToJSON\obj\Debug\netcoreapp3.1\TestTreeToJSON.csprojAssemblyReference.cache
+D:\Git_App\TestTreeToJson\bin\Debug\netcoreapp3.1\TestTreeToJSON.exe
+D:\Git_App\TestTreeToJson\bin\Debug\netcoreapp3.1\TestTreeToJSON.deps.json
+D:\Git_App\TestTreeToJson\bin\Debug\netcoreapp3.1\TestTreeToJSON.runtimeconfig.json
+D:\Git_App\TestTreeToJson\bin\Debug\netcoreapp3.1\TestTreeToJSON.runtimeconfig.dev.json
+D:\Git_App\TestTreeToJson\bin\Debug\netcoreapp3.1\TestTreeToJSON.dll
+D:\Git_App\TestTreeToJson\bin\Debug\netcoreapp3.1\TestTreeToJSON.pdb
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.csprojAssemblyReference.cache
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON_MarkupCompile.cache
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON_MarkupCompile.lref
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.g.resources
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.AssemblyInfoInputs.cache
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.AssemblyInfo.cs
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.csproj.CoreCompileInputs.cache
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.dll
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.pdb
+D:\Git_App\TestTreeToJson\obj\Debug\netcoreapp3.1\TestTreeToJSON.genruntimeconfig.cache

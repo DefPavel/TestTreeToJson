@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gCTvJKllSbSHHJwhph+Hl+CW/9EwBD24qj5P+E/2Cux6yFxZimGUeHWTRpYQnrDDibu06kXfMgKF/k5PDZi9mQ==",
+  "dgSpecHash": "cbQKhSohY6frXVLd3EiOVzf7hoes3s3i2OT9Q9CEUwpNJyVdWcEBsmpquOwjouLf92ffaIdnnoIFxQaIS4cXCw==",
   "success": true,
-  "projectFilePath": "D:\\Project to C#\\TestTreeToJSON\\TestTreeToJSON.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Vergel\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Git_App\\TestTreeToJson\\TestTreeToJSON.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
