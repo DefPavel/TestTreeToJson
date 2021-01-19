@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vergel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vergel\\.nuget\\packages"
+    ]
+  }
+}
