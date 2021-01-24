@@ -1,18 +1,21 @@
-﻿using System.IO;
+﻿using System.ComponentModel;
+using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace TestTreeToJSON
 {
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window , INotifyPropertyChanged
     {
         public MainWindow()
         {
             InitializeComponent();
-            GetTreeList(); 
-           
+            GetTreeList();
+            DataContext = this;
         }
+
         private void GetTreeList()
         {
             using (FileStream fstream = File.OpenRead("data.json"))
@@ -29,6 +32,37 @@ namespace TestTreeToJSON
                 tree.ItemsSource = node.Tree;
                
             }
-        }    
+        }
+
+        private void tree_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            nodeItem = e.NewValue as itemNode;
+
+            MessageBox.Show(nodeItem.id.ToString());
+        }
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private itemNode _nodeItem;
+        public itemNode nodeItem
+        {
+            get
+            {
+                return _nodeItem;
+            }
+            set
+            {
+                _nodeItem = value;
+                RaisePropertyChanged("nodeItem");
+            }
+        }
+        private void RaisePropertyChanged([System.Runtime.CompilerServices.CallerMemberName] string prop = "")
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(prop));
+            }
+        }
     }
 }

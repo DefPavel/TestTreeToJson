@@ -12,19 +12,16 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TreeView x:Name="tree" Grid.Column="0">
-            <TreeView.Resources>
+        <TreeView x:Name="tree" Grid.Column="0" SelectedItemChanged="tree_SelectedItemChanged">
+            <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate DataType = "{x:Type local:itemNode}"
-                                ItemsSource = "{Binding Path=child}">
-                    <TextBlock  Text="{Binding Path=nameDepartment}"/>
+                                          ItemsSource = "{Binding Path=child}">
+                    <TextBlock
+                        Tag  = "{Binding Path=id}" 
+                        Text = "{Binding Path=nameDepartment}"/>
                 </HierarchicalDataTemplate>
-                <!--
-                <HierarchicalDataTemplate DataType    = "{x:Type local:FakingNode}"
-                                ItemsSource = "{Binding Path=nameDepartment}">
-                    <TextBlock Text="{Binding Path=nameDepartment}"/>
-                </HierarchicalDataTemplate>-->
-            </TreeView.Resources>
-            
+            </TreeView.ItemTemplate>
+
         </TreeView>
         
         <GridSplitter 
@@ -35,7 +32,7 @@
         <TextBlock Grid.Column="1"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Center" 
-                   Text="TEST JSON TREE"/>
+                   Text="{Binding nodeItem.nameDepartment}"/>
 
 
 
