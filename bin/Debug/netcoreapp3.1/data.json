@@ -29,51 +29,49 @@
         },
         {
             "id": 6,
-            "nameDepartment": "АХЧ",
+            "nameDepartment": "Административно-хозяйственная часть",
             "parentId": 0,
-             "child": [
+            "child": [
                 {
                     "id": 7,
-                    "nameDepartment": "Работники АХЧ",
-                    "parentId": 6,
-                     "child": [
-                        {
-                            "id": 8,
-                            "nameDepartment": "Учебный Корпус №1",
-                            "parentId": 7
-                        },
-                        {
-                            "id": 9,
-                            "nameDepartment": "Учебный Корпус №2",
-                            "parentId": 7
-                        },
-                        {
-                            "id": 10,
-                            "nameDepartment": "Учебный Корпус №3",
-                            "parentId": 7
-                        },
-                        {
-                            "id": 11,
-                            "nameDepartment": "Учебный Корпус №4",
-                            "parentId": 7
-                        },
-                        {
-                            "id": 12,
-                            "nameDepartment": "Учебный Корпус №5",
-                            "parentId": 7
-                        },
-                        {
-                            "id": 13,
-                            "nameDepartment": "Учебный Корпус №6",
-                            "parentId": 7
-                        }
-                    ]
+                    "nameDepartment": "Работники административно-хозяйственной части",
+                    "parentId": 6
+                },
+                {
+                    "id": 8,
+                    "nameDepartment": "Учебный Корпус №1",
+                    "parentId": 6
+                },
+                {
+                    "id": 9,
+                    "nameDepartment": "Учебный Корпус №2",
+                    "parentId": 6
+                },
+                {
+                    "id": 10,
+                    "nameDepartment": "Учебный Корпус №3",
+                    "parentId": 6
+                },
+                {
+                    "id": 11,
+                    "nameDepartment": "Учебный Корпус №4",
+                    "parentId": 6
+                },
+                {
+                    "id": 12,
+                    "nameDepartment": "Учебный Корпус №5",
+                    "parentId": 6
+                },
+                {
+                    "id": 13,
+                    "nameDepartment": "Учебный Корпус №6",
+                    "parentId": 6
                 }
             ]
         },
         {
             "id": 14,
-            "nameDepartment": "Институт Педагогики",
+            "nameDepartment": "Институт педагогики и психологии",
             "parentId": 0,
             "child": [
                 {
@@ -105,7 +103,7 @@
         },
         {
             "id": 20,
-            "nameDepartment": "Институт проф.развития",
+            "nameDepartment": "Институт профессионального развития",
             "parentId": 0,
             "child": [
                 {
@@ -125,10 +123,136 @@
                 },
                 {
                     "id": 24,
-                    "nameDepartment": "Центр последипломного обрз.",
+                    "nameDepartment": "Центр последипломного образования",
                     "parentId": 20
                 }
             ]
+        },
+        {
+            "id": 25,
+            "nameDepartment": "ОП \"Брянковский колледж  ЛГПУ\"",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 26,
+            "nameDepartment": "ОП \"Колледж ЛГПУ\"",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 27,
+            "nameDepartment": "ОП \"Колледж технологий и дизайна ЛГПУ\"",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 28,
+            "nameDepartment": "ОП \"Транспортник\"",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 29,
+            "nameDepartment": "ОП\" Луганский профессиональный торгово-кулинарный колледж ЛГПУ\"",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 34,
+            "nameDepartment": "ОП\"Стахановский педагогический колледж ЛГПУ\"",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 45,
+            "nameDepartment": "Факультет естественных наук",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 46,
+            "nameDepartment": "Ректорат",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 47,
+            "nameDepartment": "Филологический факультет",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 48,
+            "nameDepartment": "Институт физического воспитания и спорта",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 49,
+            "nameDepartment": "Ремонтно-строительное подразделение",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 50,
+            "nameDepartment": "Спортивный корпус",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 51,
+            "nameDepartment": "Учебно-полевой лагерь",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 52,
+            "nameDepartment": "Отдел кадров",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 53,
+            "nameDepartment": "Отдел документооборота",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 54,
+            "nameDepartment": "Отдел бухгалтерии",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 55,
+            "nameDepartment": "Учебные мастерские",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 56,
+            "nameDepartment": "Научная библиотека",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 57,
+            "nameDepartment": "Отдел по связям с общественностью",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 58,
+            "nameDepartment": "Центр социально-гуманитарной работы",
+            "parentId": 0,
+            "child": []
+        },
+        {
+            "id": 59,
+            "nameDepartment": "Отделение международной академии наук педагогического образования",
+            "parentId": 0,
+            "child": []
         }
     ]
 }
